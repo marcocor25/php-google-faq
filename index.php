@@ -155,7 +155,27 @@ $google_faq = [
     </main>
 
     <footer>
-
+        <div class="container-footer">
+            <div class="link-wrapper">
+                <span class="link">Google</span>
+                <span class="dot">﹒</span>
+                <span class="link">Tutto su Google</span>
+                <span class="dot">﹒</span>
+                <span class="link">Privacy</span>
+                <span class="dot">﹒</span>
+                <span class="link">Termini</span>
+            </div>
+            <div class="language">
+                <i class="fas fa-language"></i>
+                <select class="language-selection">
+                    <option value="it" selected>Italiano</option>
+                    <option value="en">Inglese</option>
+                    <option value="fr">Francese</option>
+                    <option value="de">Tedesco</option>
+                    <option value="es">Spagnolo</option>
+                </select>
+            </div>
+        </div>
     </footer>
 
 </body>
